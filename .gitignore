@@ -1,0 +1,17 @@
+# Build output stays OUT of the repository: the point of the loop is that merging the
+# patch makes the host rebuild. A committed build would hide exactly that.
+node_modules
+dist
+build
+public
+out
+.output
+_site
+.astro
+.svelte-kit
+.cache
+.netlify
+.next
+.nuxt
+.vercel
+.vite
