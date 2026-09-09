@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+// CONTROL PAGE: nothing is wrong here. If a fix touches this file, the fix is too broad.
+const canonical = 'https://noyaru-stack-astro.netlify.app/a-propos';
+// Reciprocal side of the hreflang pair whose /en counterpart carries the injected defect.
+const alternates = [
+  { lang: 'fr', href: 'https://noyaru-stack-astro.netlify.app/a-propos' },
+  { lang: 'en', href: 'https://noyaru-stack-astro.netlify.app/en' },
+  { lang: 'x-default', href: 'https://noyaru-stack-astro.netlify.app/a-propos' },
+];
+---
+<Base
+  title="A propos du site de test Astro"
+  description="Page temoin du site fixture Astro, deliberement dotee d une meta description beaucoup trop longue pour depasser le seuil de cent soixante caracteres et declencher la famille meta_description_too_long qui est redigee par le modele et non par un reecriveur deterministe."
+  canonical={canonical}
+  alternates={alternates}
+>
+  <p>Page temoin : elle doit rester intacte apres la correction.</p>
+</Base>
