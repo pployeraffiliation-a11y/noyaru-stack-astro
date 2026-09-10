@@ -4,7 +4,7 @@
 const { title, description, canonical, alternates = [] } = Astro.props;
 ---
 <!doctype html>
-<html lang="fr">
+<html lang="{Astro.props.lang}">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
