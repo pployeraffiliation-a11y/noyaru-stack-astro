@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://noyaru-stack-astro.netlify.app/</loc></url>
-<url><loc>https://noyaru-stack-astro.netlify.app/blog</loc></url>
+<url><loc>https://noyaru-stack-astro.netlify.app/blog/</loc></url>
 <url><loc>https://noyaru-stack-astro.netlify.app/a-propos</loc></url>
 <url><loc>https://noyaru-stack-astro.netlify.app/liens</loc></url>
 <url><loc>https://noyaru-stack-astro.netlify.app/en</loc></url>
@@ -16,8 +16,8 @@
   <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/viewport-not-set</loc></url>
   <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/duplicate-a</loc></url>
   <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/duplicate-b</loc></url>
-  <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/canonical-http</loc></url>
-  <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/canonical-http</loc></url>
+  <url><loc>http://noyaru-stack-astro.netlify.app/gauntlet/canonical-http</loc></url>
+  <url><loc>http://noyaru-stack-astro.netlify.app/gauntlet/canonical-http</loc></url>
   <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/no-canonical-a</loc></url>
   <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/no-canonical-b</loc></url>
   <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/hreflang-invalid</loc></url>
