@@ -3,7 +3,7 @@
 <url><loc>https://noyaru-stack-astro.netlify.app/</loc></url>
 <url><loc>https://noyaru-stack-astro.netlify.app/blog</loc></url>
 <url><loc>https://noyaru-stack-astro.netlify.app/a-propos</loc></url>
-<url><loc>https://noyaru-stack-astro.netlify.app/liens/</loc></url>
+<url><loc>https://noyaru-stack-astro.netlify.app/liens</loc></url>
 <url><loc>https://noyaru-stack-astro.netlify.app/en</loc></url>
   <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/</loc></url>
   <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/missing-title</loc></url>
@@ -37,5 +37,5 @@
   <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/html-lang-missing</loc></url>
   <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/html-lang-invalid</loc></url>
   <url><loc>https://noyaru-stack-astro.netlify.app/gauntlet/noindex-long</loc></url>
-  <url><loc>https://noyaru-stack-astro.netlify.app/liens/</loc></url>
+  <url><loc>https://noyaru-stack-astro.netlify.app/liens</loc></url>
 </urlset>
