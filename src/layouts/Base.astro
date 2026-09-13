@@ -1,10 +1,10 @@
 ---
 // The SHARED layout. A per-page fix must never land here: writing one page's canonical into it
 // would stamp that value onto every page of the site.
-const { title, description, canonical, alternates = [] } = Astro.props;
+const { title, description, canonical, alternates = [], lang = "fr" } = Astro.props;
 ---
 <!doctype html>
-<html lang="fr">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
