@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 // THE INJECTED DEFECT: the trailing slash. The site serves /blog and 301s /blog/ to it, so this
 // page declares as canonical a URL that redirects away. Exactly the defect found on a real
 // customer site (voiceoverstudioai.com, PR#1) — the correct fix IS removing this one character.
-const canonical = 'https://noyaru-stack-astro.netlify.app/blog/';
+const canonical = 'https://noyaru-stack-astro.netlify.app/blog';
 ---
 <Base
   title="Blog du site de test Astro"
