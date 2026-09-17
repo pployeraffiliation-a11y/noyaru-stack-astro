@@ -8,3 +8,5 @@ Disallow: /
 # FAMILLE VISEE : inconsistent_ai_training_bot_policy
 User-agent: GPTBot
 Disallow: /
+
+Sitemap: https://noyaru-stack-astro.netlify.app/sitemap.xml
