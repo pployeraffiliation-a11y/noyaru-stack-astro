@@ -1,0 +1,44 @@
+---
+// FAMILLE VISEE : documentation, canonical propre et coherent.
+// page correcte de bout en bout : canonical vers elle-meme, aucune anomalie provoquee.
+---
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Comment verifier les balises canoniques d'un site</title>
+    <meta name="description" content="Methode pratique pour verifier les balises canoniques d'un site : ou les trouver, quoi controler et comment reperer les incoherences les plus courantes." />
+    <link rel="canonical" href="https://noyaru-stack-astro.netlify.app/gauntlet/comment-verifier-les-balises-canoniques-d-un-site" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Comment verifier les balises canoniques d'un site" />
+    <meta property="og:description" content="Methode pratique pour verifier les balises canoniques d'un site : ou les trouver, quoi controler et comment reperer les incoherences les plus courantes." />
+    <meta property="og:url" content="https://noyaru-stack-astro.netlify.app/gauntlet/comment-verifier-les-balises-canoniques-d-un-site" />
+    <meta property="og:image" content="https://noyaru-stack-astro.netlify.app/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Comment verifier les balises canoniques d'un site" />
+    <meta name="twitter:description" content="Methode pratique pour verifier les balises canoniques d'un site : ou les trouver, quoi controler et comment reperer les incoherences les plus courantes." />
+    <meta name="twitter:image" content="https://noyaru-stack-astro.netlify.app/og.png" />
+  </head>
+  <body>
+    <h1>Comment verifier les balises canoniques d'un site</h1>
+    <p>La balise canonique indique aux moteurs de recherche quelle URL fait autorite pour un contenu donne. Quand plusieurs adresses affichent la meme page, cette balise designe celle qui doit etre indexee et evite la dispersion du signal entre des doublons.</p>
+
+    <h2>Ou se trouve la balise</h2>
+    <p>La balise canonique se place dans la section head du document, sous la forme d'un element link portant l'attribut rel egal a canonical et un attribut href qui pointe vers l'URL de reference. Pour la lire, affichez le code source de la page dans le navigateur et cherchez cette ligne, ou inspectez l'element head via les outils de developpement.</p>
+
+    <h2>Ce qu'il faut controler</h2>
+    <p>Verifiez d'abord que chaque page possede bien une seule balise canonique. Deux declarations concurrentes envoient un signal contradictoire et les moteurs peuvent alors en ignorer une, ou les deux.</p>
+    <p>Controlez ensuite que l'URL indiquee est absolue, complete et accessible : elle doit renvoyer un code 200 et non une redirection ou une erreur. Une canonique qui pointe vers une page absente ou vers une redirection affaiblit le signal au lieu de le renforcer.</p>
+    <p>Assurez-vous que l'adresse designee est coherente avec l'URL reellement servie : meme protocole, meme domaine, meme casse et memes conventions de barre oblique finale. Une divergence sur ces details cree autant de variantes que le crawl devra reconcilier.</p>
+
+    <h2>Verifier a l'echelle du site</h2>
+    <p>Sur un seul document, l'inspection manuelle suffit. A l'echelle d'un site entier, un outil de crawl parcourt chaque page et remonte la valeur canonique declaree, ce qui permet de reperer les pages sans balise, celles qui pointent ailleurs qu'attendu et les groupes de doublons mal regroupes.</p>
+    <p>Croisez ces resultats avec le plan de site XML : une URL listee au sitemap mais dont la canonique pointe vers une autre adresse signale une confusion a trancher. Ces ecarts sont les plus faciles a corriger une fois qu'ils sont visibles.</p>
+
+    <h2>Erreurs frequentes</h2>
+    <p>Les cas les plus courants sont la canonique qui pointe vers la page d'accueil pour tout le site, l'oubli des parametres d'URL utiles, et la canonique heritee d'un modele qui reste figee alors que la page a change d'adresse. Une relecture reguliere evite que ces defauts s'accumulent.</p>
+
+    <p><a href="/">Retour a l accueil</a></p>
+  </body>
+</html>
