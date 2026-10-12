@@ -32,3 +32,5 @@ Disallow: /
 
 User-agent: meta-externalagent
 Disallow: /
+
+Sitemap: https://noyaru-stack-astro.netlify.app/sitemap.xml
